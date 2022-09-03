@@ -2,7 +2,7 @@
   "branches": [
     "master"
   ],
-  "repositoryUrl": "https://github.com/edwardramirez31/micro-frontend-utility-module",
+  "repositoryUrl": "https://github.com/edwardramirez31/mf-todo-utility",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",

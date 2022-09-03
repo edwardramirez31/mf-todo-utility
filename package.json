@@ -1,5 +1,5 @@
 {
-  "name": "@my-app/utility",
+  "name": "@mf-todo/utility",
   "scripts": {
     "start": "webpack serve",
     "start:standalone": "webpack serve --env standalone",
@@ -75,6 +75,6 @@
     "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.9"
   },
-  "types": "dist/my-app-utility.d.ts",
+  "types": "dist/mf-todo-utility.d.ts",
   "version": "1.0.0"
 }
