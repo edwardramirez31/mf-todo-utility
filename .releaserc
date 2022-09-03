@@ -1,0 +1,32 @@
+{
+  "branches": [
+    "master"
+  ],
+  "repositoryUrl": "https://github.com/edwardramirez31/micro-frontend-utility-module",
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "CHANGELOG.md"
+      }
+    ],
+    [
+      "@semantic-release/npm",
+      {
+        "npmPublish": false
+      }
+    ],
+    [
+      "@semantic-release/git",
+      {
+        "assets": [
+          "package.json",
+          "CHANGELOG.md"
+        ]
+      }
+    ],
+      "@semantic-release/github"
+  ]
+}
