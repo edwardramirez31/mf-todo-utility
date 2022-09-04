@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/edwardramirez31/mf-todo-utility/compare/v1.0.0...v1.1.0) (2022-09-04)
+
+
+### Features
+
+* add task subscription to share data between micro frontends ([6a1f809](https://github.com/edwardramirez31/mf-todo-utility/commit/6a1f809f332ef06288a275cd459b7a67188c6b5c))
+
 # 1.0.0 (2022-09-03)
 
 

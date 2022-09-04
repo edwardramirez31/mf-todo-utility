@@ -94,5 +94,5 @@
     "single-spa-react": "^4.3.1"
   },
   "types": "dist/mf-app-utility.d.ts",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }
