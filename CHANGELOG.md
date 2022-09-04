@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/edwardramirez31/mf-todo-utility/compare/v1.1.1...v1.2.0) (2022-09-04)
+
+
+### Features
+
+* publish package to npm using the pipeline ([a4d3dd0](https://github.com/edwardramirez31/mf-todo-utility/commit/a4d3dd04516bef4b3ce586fa26cec4911b959be2))
+
 ## [1.1.1](https://github.com/edwardramirez31/mf-todo-utility/compare/v1.1.0...v1.1.1) (2022-09-04)
 
 
