@@ -30,7 +30,8 @@
     "watch-tests": "cross-env BABEL_ENV=test jest --watch",
     "prepare": "husky install",
     "coverage": "cross-env BABEL_ENV=test jest --coverage",
-    "build:types": "tsc"
+    "build:types": "tsc",
+    "check-types": "tsc --noEmit"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
@@ -93,6 +94,10 @@
     "single-spa": "^5.9.3",
     "single-spa-react": "^4.3.1"
   },
+  "main": "dist/mf-app-utility.js",
   "types": "dist/mf-app-utility.d.ts",
+  "files": [
+    "dist"
+  ],
   "version": "1.2.0"
 }

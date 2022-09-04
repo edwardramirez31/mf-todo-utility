@@ -2,7 +2,9 @@
   "extends": "ts-config-single-spa",
   "compilerOptions": {
     "jsx": "react-jsx",
-    "declarationDir": "dist"
+    "outDir": "dist",
+    "module": "commonjs",
+    "emitDeclarationOnly": false
   },
   "files": ["src/mf-app-utility.tsx"],
   "include": ["src/**/*"],
