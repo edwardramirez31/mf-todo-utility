@@ -3,7 +3,7 @@ const singleSpaDefaults = require('webpack-config-single-spa-react-ts');
 
 module.exports = (webpackConfigEnv, argv) => {
   const defaultConfig = singleSpaDefaults({
-    orgName: 'mf-todo',
+    orgName: 'mf-app',
     projectName: 'utility',
     webpackConfigEnv,
     argv,
