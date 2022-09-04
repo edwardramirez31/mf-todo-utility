@@ -6,7 +6,8 @@ import type DjangoTask from './types';
 
 export const UTILITY_CONST = 'YOUR_CONSTANT';
 
-export const taskSubscription = new ReplaySubject();
+export const taskSubscription = new ReplaySubject<DjangoTask>();
+
 export function utilityFunc(item: DjangoTask): void {
   // eslint-disable-next-line no-console
   console.log('HEREEE AT UTILITY ====================');
@@ -14,4 +15,5 @@ export function utilityFunc(item: DjangoTask): void {
   console.log(item);
 }
 export { default as RootComponent } from './root.component';
+
 export { default as DjangoTask } from './types';
