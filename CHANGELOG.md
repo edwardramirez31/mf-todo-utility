@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/edwardramirez31/mf-todo-utility/compare/v1.1.0...v1.1.1) (2022-09-04)
+
+
+### Bug Fixes
+
+* use task interface at subscription ([367bc4f](https://github.com/edwardramirez31/mf-todo-utility/commit/367bc4f87654129ea1783c3d9e8fc31006bb3893))
+
 # [1.1.0](https://github.com/edwardramirez31/mf-todo-utility/compare/v1.0.0...v1.1.0) (2022-09-04)
 
 
