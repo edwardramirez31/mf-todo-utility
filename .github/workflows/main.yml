@@ -11,7 +11,7 @@ on:
 
 jobs:
   test:
-    name: Test project
+    name: Test micro frontend utility
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -41,8 +41,16 @@ jobs:
         uses: ./.github/actions/install_deps
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Release
+      - name: Release new version
         run: yarn semantic-release
         env:
           GH_TOKEN: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
           HUSKY: 0
+      - name: Build package
+        run: yarn build:types
+      - name: Set NPM publish token
+        run: npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Release to NPM
+        run: npm publish --access=public
