@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/edwardramirez31/mf-todo-utility/compare/v1.2.0...v1.2.1) (2022-09-04)
+
+
+### Bug Fixes
+
+* compile JS files to commonjs syntax ([28bbd2e](https://github.com/edwardramirez31/mf-todo-utility/commit/28bbd2e37cf420e7e1157de90938a82515ee0908))
+
 # [1.2.0](https://github.com/edwardramirez31/mf-todo-utility/compare/v1.1.1...v1.2.0) (2022-09-04)
 
 
