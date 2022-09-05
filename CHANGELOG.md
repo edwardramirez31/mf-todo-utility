@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/edwardramirez31/mf-todo-utility/compare/v1.3.0...v1.3.1) (2022-09-05)
+
+
+### Bug Fixes
+
+* remove npm build folder before deploying to S3 ([cab0288](https://github.com/edwardramirez31/mf-todo-utility/commit/cab0288aeee511fabaea361e3fb6bdbbd7f5a85e))
+
 # [1.3.0](https://github.com/edwardramirez31/mf-todo-utility/compare/v1.2.1...v1.3.0) (2022-09-05)
 
 
