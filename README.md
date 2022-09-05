@@ -65,8 +65,12 @@ import { utilityName } from '@${PROJECT_NAME}/{UTILITY_MODULE_NAME}';
 
   - This token should have full control of private repositories
 
-- If you don't want to use Semantic Release:
+- Set NPM_TOKEN secret at your repository with an NPM Automation Access Token so that your utility can be deployed to NPM
 
-  - Remove the step at `.github` or the entire folder
-  - Remove `.releaserc` file
-  - Remove `@semantic-release/changelog`, `@semantic-release/git`, `semantic-release` from `package.json`
+> It's highly recommended to publish your package to NPM so that you don't have TypeScript errors about not finding your utility module when it is imported at your micro frontends.
+
+- Your ${PROJECT_NAME} prompted when running ´./setup.sh´ should be the same as your organization or username from NPM. This way, you will avoid errors when executing your GitHub actions pipeline at ´npm publish --access=public´ step
+
+> You can remove ´--access=public´ option from ´npm publish´ if you can publish private packages to NPM
+
+- You can remove the ´.github´ folder if you don't want to use CI / CD GitHub actions for semantic release, publish to NPM, automated testing and deployment.
