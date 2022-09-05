@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/edwardramirez31/mf-todo-utility/compare/v1.2.1...v1.3.0) (2022-09-05)
+
+
+### Features
+
+* deploy utility module to S3 ([46f9c1c](https://github.com/edwardramirez31/mf-todo-utility/commit/46f9c1c570e4221071d7a336d6d892f4ec2f0417))
+
 ## [1.2.1](https://github.com/edwardramirez31/mf-todo-utility/compare/v1.2.0...v1.2.1) (2022-09-04)
 
 
