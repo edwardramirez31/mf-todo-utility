@@ -47,7 +47,7 @@ jobs:
           GH_TOKEN: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
           HUSKY: 0
       - name: Build package
-        run: yarn build:types
+        run: yarn build-npm
       - name: Set NPM publish token
         run: npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
         env:
@@ -60,6 +60,8 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
+      - name: Remove tsconfig options for NPM
+        run: rm -rf dist && sed -i.bak -e '6,7d' tsconfig.json
       - name: Build
         run: yarn build
       - name: Deploy to S3
