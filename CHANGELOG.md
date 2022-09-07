@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/edwardramirez31/mf-todo-utility/compare/v1.3.1...v1.4.0) (2022-09-07)
+
+
+### Features
+
+* handle semantic release and npm upload setup at project bootstrap script ([87c2ac5](https://github.com/edwardramirez31/mf-todo-utility/commit/87c2ac5acb771f350ff9739ae5f6dfa0f4dd4654))
+
 ## [1.3.1](https://github.com/edwardramirez31/mf-todo-utility/compare/v1.3.0...v1.3.1) (2022-09-05)
 
 
