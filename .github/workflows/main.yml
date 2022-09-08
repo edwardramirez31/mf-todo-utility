@@ -66,3 +66,7 @@ jobs:
         run: yarn build
       - name: Deploy to S3
         run: aws s3 sync ./dist s3://mf-todo
+      - name: Invalidate cache in CloudFront
+        run: aws cloudfront create-invalidation --distribution-id "${DISTRIBUTION_ID}" --paths "/mf-app-utility*" --no-cli-pager
+        env:
+          DISTRIBUTION_ID: ${{ secrets.DISTRIBUTION_ID }}
