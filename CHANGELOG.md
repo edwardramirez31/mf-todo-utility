@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/edwardramirez31/mf-todo-utility/compare/v1.4.0...v1.4.1) (2022-09-08)
+
+
+### Bug Fixes
+
+* invalidate build files from CloudFront cache ([7be0eda](https://github.com/edwardramirez31/mf-todo-utility/commit/7be0eda94e93cd5ab72d6e238ba29d250cb2fcf8))
+
 # [1.4.0](https://github.com/edwardramirez31/mf-todo-utility/compare/v1.3.1...v1.4.0) (2022-09-07)
 
 
