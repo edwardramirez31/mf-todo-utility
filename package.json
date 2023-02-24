@@ -92,7 +92,7 @@
     "react-dom": "^17.0.2",
     "rxjs": "^7.5.6",
     "single-spa": "^5.9.3",
-    "single-spa-react": "^4.3.1"
+    "single-spa-react": "^5.0.1"
   },
   "main": "dist/mf-app-utility.js",
   "types": "dist/mf-app-utility.d.ts",
